@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = '${POD_NAME}.'
   s.description      = '${POD_NAME} description'
 
-  s.homepage         = 'https://code.jingshonline.net/jingshonline/app/ios.components/${USER_NAME}/${POD_NAME}'
+  s.homepage         = 'https://code.jingshonline.net/jingshonline/app/ios.components/${POD_NAME}'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhongaidong' => 'zhongaidong@jingshonline.com' }
   s.source           = { :git => 'https://code.jingshonline.net/jingshonline/app/ios.components/${POD_NAME}.git', :tag => s.version.to_s }
