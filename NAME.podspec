@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = '${POD_NAME}/Classes/**/*'
+
+  s.dependency 'JSOLBase'
   
   # s.resource_bundles = {
   #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
